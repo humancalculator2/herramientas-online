@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<title>Reproducir o descargar MP3</title>
+</head>
+
+<body>
+
+<h1>Reproductor y descarga de MP3</h1>
+
+<p>Pega el enlace directo de un archivo MP3</p>
+
+<input id="link" style="width:300px" placeholder="https://ejemplo.com/audio.mp3">
+
+<br><br>
+
+<button onclick="cargar()">Cargar MP3</button>
+
+<br><br>
+
+<audio id="audio" controls></audio>
+
+<br><br>
+
+<a id="descargar" download>Descargar MP3</a>
+
+<script>
+
+function cargar(){
+
+let link=document.getElementById("link").value;
+
+document.getElementById("audio").src=link;
+
+document.getElementById("descargar").href=link;
+
+document.getElementById("descargar").innerHTML="Descargar archivo";
+
+}
+
+</script>
+
+</body>
+
+</html>
