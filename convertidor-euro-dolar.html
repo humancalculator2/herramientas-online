@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Convertidor Euro a Dólar</title>
+</head>
+
+<body>
+
+<h1>Convertidor Euro a Dólar</h1>
+
+<input id="euros" type="number">
+
+<button onclick="convertir()">Convertir</button>
+
+<p id="resultado"></p>
+
+<script>
+
+function convertir(){
+
+let euros=document.getElementById("euros").value;
+
+let dolares=euros*1.1;
+
+document.getElementById("resultado").innerHTML=dolares+" $";
+
+}
+
+</script>
+
+</body>
+</html>
