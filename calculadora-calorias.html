@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Calculadora de calorías</title>
+</head>
+
+<body>
+
+<h1>Calculadora de calorías</h1>
+
+<input id="peso" type="number" placeholder="Peso kg">
+
+<input id="altura" type="number" placeholder="Altura cm">
+
+<input id="edad" type="number" placeholder="Edad">
+
+<button onclick="calcular()">Calcular</button>
+
+<p id="resultado"></p>
+
+<script>
+
+function calcular(){
+
+let peso=document.getElementById("peso").value;
+let altura=document.getElementById("altura").value;
+let edad=document.getElementById("edad").value;
+
+let calorias=10*peso+6.25*altura-5*edad+5;
+
+document.getElementById("resultado").innerHTML="Calorías aproximadas: "+calorias;
+
+}
+
+</script>
+
+</body>
+</html>
