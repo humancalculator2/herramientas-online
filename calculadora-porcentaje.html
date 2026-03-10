@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Calculadora de porcentaje</title>
+</head>
+
+<body>
+
+<h1>Calculadora de porcentaje</h1>
+
+<p>Numero</p>
+<input id="numero">
+
+<p>Porcentaje</p>
+<input id="porcentaje">
+
+<br><br>
+
+<button onclick="calcular()">Calcular</button>
+
+<p id="resultado"></p>
+
+<script>
+
+function calcular(){
+
+let numero=document.getElementById("numero").value;
+
+let porcentaje=document.getElementById("porcentaje").value;
+
+let resultado=(numero*porcentaje)/100;
+
+document.getElementById("resultado").innerText="Resultado: "+resultado;
+
+}
+
+</script>
+
+</body>
+</html>
