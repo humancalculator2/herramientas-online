@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Herramientas Online Gratis</title>
+</head>
+
+<body>
+
+<h1>Herramientas Online Gratis</h1>
+
+<h2>Contador de palabras</h2>
+
+<textarea id="text"></textarea>
+<br><br>
+
+<button onclick="countWords()">Contar palabras</button>
+
+<p id="result"></p>
+
+<script>
+
+function countWords(){
+
+let text=document.getElementById("text").value;
+
+let words=text.trim().split(/\s+/).filter(word=>word.length>0);
+
+document.getElementById("result").innerText="Palabras: "+words.length;
+
+}
+
+</script>
+
+</body>
+</html>
