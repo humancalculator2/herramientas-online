@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Eliminar Espacios</title>
+</head>
+
+<body>
+
+<h1>Eliminar espacios</h1>
+
+<textarea id="texto"></textarea>
+
+<br><br>
+
+<button onclick="limpiar()">Eliminar</button>
+
+<p id="resultado"></p>
+
+<script>
+
+function limpiar(){
+
+let texto=document.getElementById("texto").value;
+
+document.getElementById("resultado").innerHTML=
+texto.replace(/\s/g,'');
+
+}
+
+</script>
+
+</body>
+</html>
