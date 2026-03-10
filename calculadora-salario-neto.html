@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Calculadora de salario neto</title>
+</head>
+
+<body>
+
+<h1>Calculadora de salario neto</h1>
+
+<input id="salario" type="number" placeholder="Salario bruto">
+
+<button onclick="calcular()">Calcular</button>
+
+<p id="resultado"></p>
+
+<script>
+
+function calcular(){
+
+let salario=document.getElementById("salario").value;
+
+let impuesto=salario*0.20;
+
+let neto=salario-impuesto;
+
+document.getElementById("resultado").innerHTML="Salario neto: "+neto+" €";
+
+}
+
+</script>
+
+</body>
+</html>
