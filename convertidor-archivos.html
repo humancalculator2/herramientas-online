@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Convertidor de archivos</title>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+</head>
+
+<body>
+
+<h1>Convertidor de archivos (imagen a PDF)</h1>
+
+<p>Sube una imagen (JPG, PNG o WEBP)</p>
+
+<input type="file" id="archivo" accept="image/*">
+
+<br><br>
+
+<button onclick="convertir()">Convertir a PDF</button>
+
+<br><br>
+
+<a id="descargar"></a>
+
+<script>
+
+function convertir(){
+
+let file=document.getElementById("archivo").files[0];
+
+let reader=new FileReader();
+
+reader.onload=function(e){
+
+let { jsPDF } = window.jspdf;
+
+let pdf=new jsPDF();
+
+pdf.addImage(e.target.result,'JPEG',10,10,180,160);
+
+let blob=pdf.output('blob');
+
+let url=URL.createObjectURL(blob);
+
+let link=document.getElementById("descargar");
+
+link.href=url;
+
+link.download="archivo.pdf";
+
+link.innerHTML="Descargar PDF";
+
+}
+
+reader.readAsDataURL(file);
+
+}
+
+</script>
+
+</body>
+
+</html>
