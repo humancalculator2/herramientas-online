@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Generador de colores HEX</title>
+</head>
+
+<body>
+
+<h1>Generador de color HEX</h1>
+
+<button onclick="generar()">Generar color</button>
+
+<p id="color"></p>
+
+<div id="box" style="width:200px;height:100px;"></div>
+
+<script>
+
+function generar(){
+
+let letras="0123456789ABCDEF";
+
+let color="#";
+
+for(let i=0;i<6;i++){
+
+color+=letras[Math.floor(Math.random()*16)];
+
+}
+
+document.getElementById("color").innerHTML=color;
+
+document.getElementById("box").style.background=color;
+
+}
+
+</script>
+
+</body>
+</html>
