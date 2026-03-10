@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Descargar vídeo TikTok</title>
+
+</head>
+
+<body>
+
+<h1>Descargar vídeo de TikTok sin marca de agua</h1>
+
+<p>Pega el enlace del vídeo de TikTok</p>
+
+<input id="link" style="width:300px" placeholder="https://tiktok.com/...">
+
+<br><br>
+
+<button onclick="descargar()">Descargar</button>
+
+<script>
+
+function descargar(){
+
+let link=document.getElementById("link").value;
+
+let url="https://snaptik.app/?url="+link;
+
+window.open(url);
+
+}
+
+</script>
+
+</body>
+
+</html>
