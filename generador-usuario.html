@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Generador de nombres de usuario</title>
+</head>
+
+<body>
+
+<h1>Generador de nombres de usuario</h1>
+
+<button onclick="generar()">Generar</button>
+
+<p id="nombre"></p>
+
+<script>
+
+function generar(){
+
+let nombres=["gamer","pro","dark","super","mega","x","legend","cool"];
+let numeros=Math.floor(Math.random()*1000);
+
+let nombre=nombres[Math.floor(Math.random()*nombres.length)]+numeros;
+
+document.getElementById("nombre").innerHTML=nombre;
+
+}
+
+</script>
+
+</body>
+</html>
