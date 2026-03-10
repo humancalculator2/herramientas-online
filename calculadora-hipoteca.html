@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Calculadora de hipoteca</title>
+</head>
+
+<body>
+
+<h1>Calculadora de hipoteca</h1>
+
+<input id="cantidad" type="number" placeholder="Cantidad préstamo">
+
+<input id="interes" type="number" placeholder="Interés anual %">
+
+<input id="anos" type="number" placeholder="Años">
+
+<button onclick="calcular()">Calcular</button>
+
+<p id="resultado"></p>
+
+<script>
+
+function calcular(){
+
+let P=document.getElementById("cantidad").value;
+let r=document.getElementById("interes").value/100/12;
+let n=document.getElementById("anos").value*12;
+
+let cuota=P*r/(1-Math.pow(1+r,-n));
+
+document.getElementById("resultado").innerHTML="Cuota mensual: "+cuota.toFixed(2)+" €";
+
+}
+
+</script>
+
+</body>
+</html>
