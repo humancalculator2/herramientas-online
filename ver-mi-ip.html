@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ver mi IP</title>
+</head>
+
+<body>
+
+<h1>Tu dirección IP</h1>
+
+<p id="ip"></p>
+
+<script>
+
+fetch("https://api.ipify.org?format=json")
+.then(response=>response.json())
+.then(data=>{
+document.getElementById("ip").innerHTML=data.ip;
+});
+
+</script>
+
+</body>
+</html>
