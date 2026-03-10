@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Calculadora de IVA</title>
+</head>
+
+<body>
+
+<h1>Calculadora de IVA</h1>
+
+<input id="precio" type="number" placeholder="Precio">
+
+<button onclick="calcular()">Calcular IVA</button>
+
+<p id="resultado"></p>
+
+<script>
+
+function calcular(){
+
+let precio=document.getElementById("precio").value;
+let iva=precio*0.21;
+let total=parseFloat(precio)+iva;
+
+document.getElementById("resultado").innerHTML="Total con IVA: "+total;
+
+}
+
+</script>
+
+</body>
+</html>
