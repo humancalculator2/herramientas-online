@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Convertidor KG a Libras</title>
+</head>
+
+<body>
+
+<h1>Convertidor KG a Libras</h1>
+
+<input id="kg" type="number" placeholder="Kilogramos">
+
+<button onclick="convertir()">Convertir</button>
+
+<p id="resultado"></p>
+
+<script>
+
+function convertir(){
+
+let kg=document.getElementById("kg").value;
+let libras=kg*2.20462;
+
+document.getElementById("resultado").innerHTML=libras+" libras";
+
+}
+
+</script>
+
+</body>
+</html>
