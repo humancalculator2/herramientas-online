@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Convertidor KM a Millas</title>
+</head>
+
+<body>
+
+<h1>Convertidor KM a Millas</h1>
+
+<input id="km" type="number" placeholder="Kilómetros">
+
+<button onclick="convertir()">Convertir</button>
+
+<p id="resultado"></p>
+
+<script>
+function convertir(){
+let km=document.getElementById("km").value;
+let millas=km*0.621371;
+
+document.getElementById("resultado").innerHTML=
+millas+" millas";
+}
+</script>
+
+</body>
+</html>
