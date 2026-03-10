@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Convertir a Minúsculas</title>
+</head>
+
+<body>
+
+<h1>Convertir texto a minúsculas</h1>
+
+<textarea id="texto"></textarea>
+
+<br><br>
+
+<button onclick="convertir()">Convertir</button>
+
+<p id="resultado"></p>
+
+<script>
+
+function convertir(){
+
+let texto=document.getElementById("texto").value;
+
+document.getElementById("resultado").innerHTML=
+texto.toLowerCase();
+
+}
+
+</script>
+
+</body>
+</html>
