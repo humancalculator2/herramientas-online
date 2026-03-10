@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Calculadora interés compuesto</title>
+</head>
+
+<body>
+
+<h1>Calculadora de interés compuesto</h1>
+
+<input id="capital" type="number" placeholder="Capital inicial">
+
+<input id="interes" type="number" placeholder="Interés anual %">
+
+<input id="anos" type="number" placeholder="Años">
+
+<button onclick="calcular()">Calcular</button>
+
+<p id="resultado"></p>
+
+<script>
+
+function calcular(){
+
+let capital=document.getElementById("capital").value;
+let interes=document.getElementById("interes").value/100;
+let anos=document.getElementById("anos").value;
+
+let total=capital*Math.pow(1+interes,anos);
+
+document.getElementById("resultado").innerHTML="Total: "+total.toFixed(2);
+
+}
+
+</script>
+
+</body>
+</html>
