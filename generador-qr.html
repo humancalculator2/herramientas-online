@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Generador QR</title>
+</head>
+
+<body>
+
+<h1>Generador de QR</h1>
+
+<input id="texto" placeholder="Texto o enlace">
+
+<button onclick="generar()">Generar QR</button>
+
+<br><br>
+
+<img id="qr">
+
+<script>
+
+function generar(){
+
+let texto=document.getElementById("texto").value;
+
+document.getElementById("qr").src=
+"https://api.qrserver.com/v1/create-qr-code/?size=200x200&data="+texto;
+
+}
+
+</script>
+
+</body>
+</html>
