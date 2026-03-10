@@ -1,72 +1,169 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
+
 <meta charset="UTF-8">
+
 <title>Herramientas Online Gratis</title>
-<meta name="google-site-verification" content="CFmrCF0WfhBxXYZmA0_yr1nqB9SA_YssjPyMA-8tlLA" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+
+body{
+font-family:Arial;
+background:#f4f4f4;
+margin:0;
+padding:0;
+text-align:center;
+}
+
+header{
+background:#2c3e50;
+color:white;
+padding:20px;
+}
+
+h1{
+margin:0;
+}
+
+.container{
+max-width:900px;
+margin:auto;
+padding:20px;
+}
+
+.card{
+background:white;
+padding:15px;
+margin:10px;
+border-radius:8px;
+box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+a{
+text-decoration:none;
+color:#3498db;
+font-weight:bold;
+}
+
+footer{
+margin-top:30px;
+padding:20px;
+background:#2c3e50;
+color:white;
+}
+
+</style>
+
 </head>
 
 <body>
 
+<header>
+
 <h1>Herramientas Online Gratis</h1>
-<h2>Herramientas disponibles</h2>
 
-<ul>
+<p>Calculadoras y herramientas útiles gratuitas</p>
 
-<li><a href="calculadora-imc.html">Calculadora IMC</a></li>
+</header>
 
-<li><a href="calculadora-porcentaje.html">Calculadora de porcentaje</a></li>
+<div class="container">
 
-<li><a href="contador-caracteres.html">Contador de caracteres</a></li>
+<h2>Calculadoras</h2>
 
-<li><a href="convertidor-km-millas.html">Convertidor KM a Millas</a></li>
+<div class="card">
+<a href="calculadora-imc.html">Calculadora IMC</a>
+</div>
 
-<li><a href="generador-contrasenas.html">Generador de contraseñas</a></li>
-<li><a href="calculadora-edad.html">Calculadora de edad</a></li>
+<div class="card">
+<a href="calculadora-porcentaje.html">Calculadora de porcentaje</a>
+</div>
 
-<li><a href="calculadora-iva.html">Calculadora de IVA</a></li>
+<div class="card">
+<a href="calculadora-edad.html">Calculadora de edad</a>
+</div>
 
-<li><a href="convertidor-kg-libras.html">Convertidor KG a libras</a></li>
+<div class="card">
+<a href="calculadora-salario-neto.html">Calculadora de salario neto</a>
+</div>
 
-<li><a href="convertidor-temperatura.html">Convertidor Celsius a Fahrenheit</a></li>
+<div class="card">
+<a href="calculadora-hipoteca.html">Calculadora de hipoteca</a>
+</div>
 
-<li><a href="eliminar-espacios.html">Eliminar espacios del texto</a></li>
+<div class="card">
+<a href="calculadora-interes-compuesto.html">Calculadora interés compuesto</a>
+</div>
 
-<li><a href="texto-mayusculas.html">Convertir texto a mayúsculas</a></li>
+<div class="card">
+<a href="calculadora-calorias.html">Calculadora de calorías</a>
+</div>
 
-<li><a href="texto-minusculas.html">Convertir texto a minúsculas</a></li>
-  
-<li><a href="calculadora-salario-neto.html">Calculadora de salario neto</a></li>
+<h2>Convertidores</h2>
 
-<li><a href="calculadora-hipoteca.html">Calculadora de hipoteca</a></li>
+<div class="card">
+<a href="convertidor-km-millas.html">Convertidor km a millas</a>
+</div>
 
-<li><a href="calculadora-interes-compuesto.html">Calculadora de interés compuesto</a></li>
+<div class="card">
+<a href="convertidor-kg-libras.html">Convertidor kg a libras</a>
+</div>
 
-<li><a href="calculadora-calorias.html">Calculadora de calorías</a></li>  
-  
-</ul>
-<h2>Contador de palabras</h2>
+<div class="card">
+<a href="convertidor-euro-dolar.html">Convertidor euro a dólar</a>
+</div>
 
-<textarea id="text"></textarea>
-<br><br>
+<div class="card">
+<a href="convertidor-temperatura.html">Celsius a Fahrenheit</a>
+</div>
 
-<button onclick="countWords()">Contar palabras</button>
+<h2>Herramientas de texto</h2>
 
-<p id="result"></p>
+<div class="card">
+<a href="contador-palabras.html">Contador de palabras</a>
+</div>
 
-<script>
+<div class="card">
+<a href="contador-caracteres.html">Contador de caracteres</a>
+</div>
 
-function countWords(){
+<div class="card">
+<a href="texto-mayusculas.html">Texto a mayúsculas</a>
+</div>
 
-let text=document.getElementById("text").value;
+<div class="card">
+<a href="texto-minusculas.html">Texto a minúsculas</a>
+</div>
 
-let words=text.trim().split(/\s+/).filter(word=>word.length>0);
+<div class="card">
+<a href="eliminar-espacios.html">Eliminar espacios</a>
+</div>
 
-document.getElementById("result").innerText="Palabras: "+words.length;
+<h2>Herramientas web</h2>
 
-}
+<div class="card">
+<a href="generador-qr.html">Generador QR</a>
+</div>
 
-</script>
+<div class="card">
+<a href="generador-contrasenas.html">Generador de contraseñas</a>
+</div>
+
+<div class="card">
+<a href="ver-mi-ip.html">Ver mi IP</a>
+</div>
+
+</div>
+
+<footer>
+
+<p>© 2026 Herramientas Online Gratis</p>
+
+</footer>
 
 </body>
+
 </html>
