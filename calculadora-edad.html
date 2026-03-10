@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Calculadora de Edad</title>
+</head>
+
+<body>
+
+<h1>Calculadora de Edad</h1>
+
+<input type="date" id="fecha">
+
+<button onclick="calcular()">Calcular edad</button>
+
+<p id="resultado"></p>
+
+<script>
+
+function calcular(){
+
+let nacimiento=new Date(document.getElementById("fecha").value);
+let hoy=new Date();
+
+let edad=hoy.getFullYear()-nacimiento.getFullYear();
+
+document.getElementById("resultado").innerHTML="Edad: "+edad+" años";
+
+}
+
+</script>
+
+</body>
+</html>
