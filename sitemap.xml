@@ -1,13 +1,123 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://humancalculator2.github.io/herramientas-online/</loc>
-    <lastmod>2026-04-22</lastmod>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://humancalculator2.github.io/herramientas-online/privacidad.html</loc>
-    <lastmod>2026-04-22</lastmod>
-    <priority>0.8</priority>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
+<url>
+<loc>https://humancalculator2.github.io/herramientas-online/</loc>
+<lastmod>2026-04-22T12:14:47+00:00</lastmod>
+<priority>1.00</priority>
+</url>
+<url>
+<loc>https://humancalculator2.github.io/herramientas-online/calculadora-imc.html</loc>
+<lastmod>2026-04-22T12:14:47+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://humancalculator2.github.io/herramientas-online/calculadora-porcentaje.html</loc>
+<lastmod>2026-04-22T12:14:47+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://humancalculator2.github.io/herramientas-online/calculadora-edad.html</loc>
+<lastmod>2026-04-22T12:14:47+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://humancalculator2.github.io/herramientas-online/calculadora-salario-neto.html</loc>
+<lastmod>2026-04-22T12:14:47+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://humancalculator2.github.io/herramientas-online/calculadora-hipoteca.html</loc>
+<lastmod>2026-04-22T12:14:47+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://humancalculator2.github.io/herramientas-online/calculadora-interes-compuesto.html</loc>
+<lastmod>2026-04-22T12:14:47+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://humancalculator2.github.io/herramientas-online/calculadora-calorias.html</loc>
+<lastmod>2026-04-22T12:14:47+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://humancalculator2.github.io/herramientas-online/convertidor-km-millas.html</loc>
+<lastmod>2026-04-22T12:14:47+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://humancalculator2.github.io/herramientas-online/convertidor-kg-libras.html</loc>
+<lastmod>2026-04-22T12:14:47+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://humancalculator2.github.io/herramientas-online/convertidor-euro-dolar.html</loc>
+<lastmod>2026-04-22T12:14:47+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://humancalculator2.github.io/herramientas-online/convertidor-temperatura.html</loc>
+<lastmod>2026-04-22T12:14:47+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://humancalculator2.github.io/herramientas-online/contador-caracteres.html</loc>
+<lastmod>2026-04-22T12:14:47+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://humancalculator2.github.io/herramientas-online/texto-mayusculas.html</loc>
+<lastmod>2026-04-22T12:14:47+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://humancalculator2.github.io/herramientas-online/texto-minusculas.html</loc>
+<lastmod>2026-04-22T12:14:47+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://humancalculator2.github.io/herramientas-online/eliminar-espacios.html</loc>
+<lastmod>2026-04-22T12:14:47+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://humancalculator2.github.io/herramientas-online/reproductor-mp3-link.html</loc>
+<lastmod>2026-04-22T12:14:47+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://humancalculator2.github.io/herramientas-online/descargar-tiktok.html</loc>
+<lastmod>2026-04-22T12:14:47+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://humancalculator2.github.io/herramientas-online/generador-usuario.html</loc>
+<lastmod>2026-04-22T12:14:47+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://humancalculator2.github.io/herramientas-online/generador-color.html</loc>
+<lastmod>2026-04-22T12:14:47+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://humancalculator2.github.io/herramientas-online/generador-qr.html</loc>
+<lastmod>2026-04-22T12:14:47+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://humancalculator2.github.io/herramientas-online/generador-contrasenas.html</loc>
+<lastmod>2026-04-22T12:14:47+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://humancalculator2.github.io/herramientas-online/ver-mi-ip.html</loc>
+<lastmod>2026-04-22T12:14:47+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://humancalculator2.github.io/herramientas-online/privacidad.html</loc>
+<lastmod>2026-04-22T12:14:47+00:00</lastmod>
+<priority>0.80</priority>
+</url>
 </urlset>
