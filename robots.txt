@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://humancalculator2.github.io/herramientas-online/mapa.xml
+Sitemap: https://humancalculator2.github.io/herramientas-online/sitemap.xml
