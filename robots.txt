@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: sitemap.xml
+Sitemap: https://humancalculator2.github.io/herramientas-online/sitemap.xml
